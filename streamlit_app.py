@@ -18,7 +18,6 @@ name_on_order = st.text_input('Name on Smoothie')
 st.write('The name on your Smootie will be: ', name_on_order)
 
 cnx = st.connection("snowflake"
-    type="snowflake,
     account = "DOULQOW-AUB53427",
     user = "Per",
     password = "_Caracol96Caracol96",
