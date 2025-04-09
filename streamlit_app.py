@@ -1,7 +1,7 @@
 #RCH# Import python packages
 import streamlit as st
 import requests
-import pandas
+#import pandas
 from snowflake.snowpark.functions import col
 
 helpful_links = [
